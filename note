@@ -1,1 +1,22 @@
 - Equatable
+-MaterialApp, Scaffold?
+-Stateless and stateful?
+-CrossAxisAlignment.stretch: full view
+-ctr + alt + m
+- Call native
+- Animation
+- Dio
+- keyboardType: TextInputType.emailAddress: set keyboard support for email format,
+- FirestoreService._(); create 1 instance and private contructor
+- final id = widget.job?.id ?? documentIdFromCurrentDate();
+- typedef ItemWidgetBuilder<T> = Widget Function(BuildContext context, T item); no body
+- Widget:
+    + Divider():  this represents a divider. Dividers can be used in lists, Drawers, and elsewhere to separate content.,
+    + Dismissible(): A widget that can be dismissed by dragging in the indicated direction.
+    + Expanded(): expands a child of a Row, Column, or Flex so that the child fills the available space.
+    + Placeholder(): This widget is useful during development to indicate that the interface is not yet complete.
+    + InkWell() :A rectangular area of a Material that responds to touch.
+- CancelableOperation or CancelableCompleter : cancel the future async 2.5.0
+-  if (job.ratePerHour > 0.0) ...<Widget>[]
+- Test:
+    - verifyZeroInteractions:

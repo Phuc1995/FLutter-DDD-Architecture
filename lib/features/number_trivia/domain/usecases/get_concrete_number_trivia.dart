@@ -7,7 +7,7 @@ import 'package:flutter_with_tdd/features/number_trivia/domain/repositories/numb
 import 'package:meta/meta.dart';
 
 class GetConcreteNumberTrivia implements UseCase<NumberTrivia, Params>{
-  final NumberTriviaRepository repository;
+    final NumberTriviaRepository repository;
 
   GetConcreteNumberTrivia(this.repository);
 

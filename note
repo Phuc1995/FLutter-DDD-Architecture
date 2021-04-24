@@ -20,3 +20,17 @@
 -  if (job.ratePerHour > 0.0) ...<Widget>[]
 - Test:
     - verifyZeroInteractions:
+    - String fixtures(String name) => File('test/fixtures/${name}').readAsStringSync();
+    - thenAnswer to stub methods that return a Future or Stream
+    - TypeMatcher():  Creates a type matcher for the given type parameter.
+    - await untilCalled():
+    -  expectLater(bloc.state, emitsInAnyOrder(expected));:       final expected = [
+                                          Empty(),
+                                          Error(message: INVALID_INPUT_FAILURE_MESSAGE),
+                                        ];
+
+ - @immutable:
+ - get_it:
+    + Class requiring cleanup(such as Blocs) shouldn't be registered as singletons
+    + LazySingleton: is registered when is requested
+ - clean new technical from medium

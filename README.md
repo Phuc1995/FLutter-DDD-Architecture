@@ -1,16 +1,40 @@
-# flutter_with_tdd
+#This is the repository for the flutter app built using clean architecture and test driven development following the tutorial series by @ResoCoder
 
-A new Flutter application.
+**Dependencies**
+BLoC, Widgets that make it easy to integrate blocs and cubits into Flutter
 
-## Getting Started
+Dartz, Functional programming in Dart
 
-This project is a starting point for a Flutter application.
+Data Connection Checker, A pure Dart utility library that checks for an internet connection
 
-A few resources to get you started if this is your first Flutter project:
+Equatable, Simplify Equality Comparisons
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+equatable: ^2.0.0
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Get It, This is a simple Service Locator for Dart and Flutter projects
+
+get_it: ^6.0.0
+
+HTTP, A composable, Future-based library for making HTTP requests.
+
+http: ^0.13.0
+
+Mockito, Mock library for Dart inspired by Mockito.
+
+mockito: ^5.0.0
+
+Shared preferences plugin, Wraps platform-specific persistent storage for simple data (NSUserDefaults on iOS and macOS, SharedPreferences on Android, etc.).
+
+shared_preferences: ^2.0.1
+
+NUMBERS API Link
+NUMBERS API, An API for interesting facts about numbers
+
+Uncle Bob's Clean Architecture Proposal
+CleanArchitecture
+
+Flowchart
+Clean-Architecture-Flutter-Diagram
+
+Screenshots
+Home Page Trivia Page
